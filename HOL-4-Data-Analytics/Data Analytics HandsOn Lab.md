@@ -25,7 +25,7 @@
 
 2.  Click **+ New** &gt; **Data + Storage** &gt; **SQL Data Warehouse**.
 
-	<img src="./media/image1.png" width="624" height="400" />
+	<img src="./media/image1.PNG" width="624" height="400" />
 	<br>
 
 3.  In the **SQL Data Warehouse** blade, fill in the following information:
@@ -54,7 +54,7 @@
 5.  Wait for a few minutes and your SQL Data Warehouse will be provisioned and ready to use. When finished, you should be returned to the portal. You can find your SQL Data Warehouse on your dashboard, or listed under your SQL Databases, or in the resource group that you used to create it.
 	
 	<br>
-	<img src="./media/image4.png" width="624" height="399" />
+	<img src="./media/image4.PNG" width="624" height="399" />
 	<br>
 
 6.  Use the following steps in the Azure portal to create a server-level firewall rule that allows connections from an individual IP address (your client computer).
@@ -63,12 +63,12 @@
 
     2.  Click **show firewall settings**
 
-	<img src="./media/image5.png" width="624" height="426" />
+	<img src="./media/image5.PNG" width="624" height="426" />
 	<br>
 
 7.  Click **Add Client IP** to have Azure create a rule for your client's IP address.
 
-	<img src="./media/image6.png" width="624" height="393" />
+	<img src="./media/image6.PNG" width="624" height="393" />
 	<br>
 
 8.  Click **Save** to create the server-level firewall rule.
@@ -84,7 +84,7 @@ Your SQL Data Warehouse is associated with an Azure SQL server. To connect, you 
 Click **SQL databases** and click the database you want to connect to (the one you just created). Locate the full server name and copy that name to your clipboard.
 
 <br>
-<img src="./media/image8.png" width="624" height="364" />
+<img src="./media/image8.PNG" width="624" height="364" />
 <br>
 
 To start querying your data warehouse, **open the SQL Server Management Studio** **application in Windows 10** and **connect to server. **
@@ -119,7 +119,7 @@ To explore, expand your Azure SQL server. You can view the databases associated 
 PolyBase is a technology that accesses and combines both non-relational and relational data, all from within SQL Server or Azure SQL Data Warehouse. It allows you to run queries on external data in Hadoop or Azure blob storage. By simply using Transact-SQL (T-SQL) statements, you an import and export data back and forth between relational tables in SQL Server and non-relational data stored in Hadoop or Azure Blob Storage. You can also query the external data from within a T-SQL query and join it with relational data.
 
 <br>
-<img src="./media/image11.png" width="624" height="276" />
+<img src="./media/image11.PNG" width="624" height="276" />
 <br>
 
 ###Accessing the centralized blob storage:
@@ -127,7 +127,7 @@ PolyBase is a technology that accesses and combines both non-relational and rela
 The centralized data store for our workshop has been prepared for you in blob storage. To access this store, open **Microsoft Azure Storage Explorer application in Windows 10**. Under **(Local and Attached)**, **right click on Storage Accounts** and **Connect to Storage Account**.
 
 <br>
-<img src="./media/image12.png" width="624" height="480" />
+<img src="./media/image12.PNG" width="624" height="480" />
 <br>
 
 The following are the **access details** you will need to access the centralized blob storage.
@@ -632,7 +632,7 @@ Power BI integration allows you to directly connect to the data stored in your A
 	 **Data View** helps you inspect, explore, and understand data in your Power BI Desktop model. It's different from how you view tables, columns, and data in **Query Editor**. With Data View, you’re looking at your data *after* it has been loaded into the model. You can also make sequence of transformations to the data.
 	
 	<br>
-	<img src="./media/image21.png" width="624" height="257" />
+	<img src="./media/image21.PNG" width="624" height="257" />
 	<br>
 
 	 **Relationship View** shows all of the tables, columns, and relationships in your model. This can be especially helpful when your model has complex relationships between many tables.
@@ -686,36 +686,36 @@ Power BI integration allows you to directly connect to the data stored in your A
 	-   Since we are only interested in students’ enrollment in this case, you can filter that by expanding Type column in the **‘Filters’** section and selecting only StudentEnrollment Value.
 	
 	<br>
-	<img src="./media/image29.png" width="624" height="505" />
+	<img src="./media/image29.PNG" width="624" height="505" />
 	<br>
 
 10. Now, repeat this process and add another Line chart to analyze the number of teachers enrolled over time. Now you have two line charts on your report, one for students and the other for teachers.
 	
 	<br>
-	<img src="./media/image30.png" width="624" height="327" />
+	<img src="./media/image30.PNG" width="624" height="327" />
 	<br>
 
 11. You can add a slicer to narrow the portion of the dataset shown in the other visualizations on the report page.  Slicers are an alternate way of filtering.
 
     -   From the **Visualizations** pane, select **Slicer.**
 
-        <img src="./media/image31.png" width="624" height="284" />
+        <img src="./media/image31.PNG" width="624" height="284" />
 
     -   From the **Fields** pane, drag Name from Course Master on the Slicer (From Fields pane, **CourseMaster &gt;** **Name).**
 
-        <img src="./media/image32.png" width="624" height="310" />
+        <img src="./media/image32.PNG" width="624" height="310" />
  
 
 12. Now, slice the report page for **Business and Management** course. **Notice how other visualizations get updated to reflect these selections.** Also, select other courses to explore and analyze more course-specific information.
 	
 	<br>
- 	<img src="./media/image33.png" width="624" height="303" />
+ 	<img src="./media/image33.PNG" width="624" height="303" />
 	<br>
 
 13. Finally, you have a report. You can **rename** your report at the bottom left corner of the page. Also, you can **publish** your reports to **Power BI Service** by clicking ‘**Publish’** under Home menu. You can always edit and republish your reports to update the changes.
 
 	<br>
-	<img src="./media/image34.png" width="624" height="516" />
+	<img src="./media/image34.PNG" width="624" height="516" />
 	<br>
 
 	-   After you click Publish from Home menu, a dialog appears which prompts you to **select a workspace** to publish your report. Select a workspace where you want your report to be published and click **Publish button.**
@@ -733,7 +733,7 @@ Power BI integration allows you to directly connect to the data stored in your A
 	-   The visualizations display in a special **Quick Insights** canvas with a bunch of Insight Cards. Each card has a chart or graph with a short description.
 	
 	<br>
-	<img src="./media/image37.png" width="624" height="472" />
+	<img src="./media/image37.PNG" width="624" height="472" />
 	<br>
 
 14. You can interact with the Quick Insight cards as follows:
@@ -744,7 +744,7 @@ Power BI integration allows you to directly connect to the data stored in your A
 		
 		-   The In-focus icon to display the card full-screen.
 		
-		 <img src="./media/image38.png" width="74" height="36" />
+		 <img src="./media/image38.PNG" width="74" height="36" />
 	
 	-  In the full-screen mode, you can filter the visualizations. To display filters, in the top right corner, select the arrow.
 
