@@ -127,7 +127,7 @@ PolyBase is a technology that accesses and combines both non-relational and rela
 The centralized data store for our workshop has been prepared for you in blob storage. To access this store, open **Microsoft Azure Storage Explorer application in Windows 10**. Under **(Local and Attached)**, **right click on Storage Accounts** and **Connect to Storage Account**.
 
 <br>
-<img src="./media/image12.png" width="624" height="480" />
+	<img src="./media/image12.png" width="624" height="480" />
 <br>
 
 The following are the **access details** you will need to access the centralized blob storage.
